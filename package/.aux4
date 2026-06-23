@@ -1,7 +1,7 @@
 {
   "scope": "aux4",
   "name": "secret",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Secret manager for aux4 — resolves secret:// URIs using pluggable providers",
   "license": "Apache-2.0",
   "tags": [
