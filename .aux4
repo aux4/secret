@@ -1,0 +1,27 @@
+{
+  "profiles": [
+    {
+      "name": "main",
+      "commands": [
+        {
+          "name": "install",
+          "execute": [
+            "aux4 aux4 releaser install --dir package --noBuild true"
+          ],
+          "help": {
+            "text": "Install the package locally"
+          }
+        },
+        {
+          "name": "test",
+          "execute": [
+            "aux4 test run --dir package/test"
+          ],
+          "help": {
+            "text": "Run tests"
+          }
+        }
+      ]
+    }
+  ]
+}
